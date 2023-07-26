@@ -3,3 +3,8 @@ __pycache__/
 .env
 .coverage
 .vscode/
+out/*
+!out/.gitkeep
+!out/tests/
+out/tests/*
+!out/tests/.gitkeep
