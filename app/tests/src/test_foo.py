@@ -1,4 +1,5 @@
 import unittest
+
 import mock
 
 from src.foo import Foo

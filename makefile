@@ -7,6 +7,9 @@ run:
 test:
 	$(test_cmd)
 
+isort:
+	dotenv run python -m isort
+
 lint:
 	dotenv run flake8 $(app_path)
 
